@@ -1,8 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+DEPLOYED LINK FOR WEBSITE : https://statsnswap-jf9rmad6d-adis-projects-8ba446b5.vercel.app/
+
+INORDER TO VIEW QUOTES FOR TOKEN SWAP YOU NEED TO HAVE A WALLET INSTALLED THEN CONNECT IT THROUGH DEDICATED " CONNECT WALLET " BUTTON
+
+Some screenshots are included for reference 
 
 ## Getting Started
 
-First, run the development server:
+```bash
+# to install all the required packages
+
+npm i 
+```
+
+then Firstly, run the development server:
 
 ```bash
 npm run dev
@@ -38,3 +48,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+Some Screenshots 
+
+<img width="1470" alt="Screenshot 2024-06-16 at 6 04 55 PM" src="https://github.com/Adi9876/Stats-n-Swap/assets/62845979/0b206b3a-66b3-45c9-a7b3-b2337a382cca">
+
+<img width="1470" alt="Screenshot 2024-06-16 at 6 09 03 PM" src="https://github.com/Adi9876/Stats-n-Swap/assets/62845979/8e92978f-226c-4cee-a302-a5da56444c38">
+
+<img width="1442" alt="Screenshot 2024-06-17 at 12 20 21 AM" src="https://github.com/Adi9876/Stats-n-Swap/assets/62845979/cb74ca21-c4c9-4645-9f05-1aa16ff9f1ce">
