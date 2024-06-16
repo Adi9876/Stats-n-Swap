@@ -1,5 +1,7 @@
 DEPLOYED LINK FOR WEBSITE : https://statsnswap-jf9rmad6d-adis-projects-8ba446b5.vercel.app/
 
+//// View on desktop for best alignment
+
 INORDER TO VIEW QUOTES FOR TOKEN SWAP YOU NEED TO HAVE A WALLET INSTALLED THEN CONNECT IT THROUGH DEDICATED " CONNECT WALLET " BUTTON
 
 Some screenshots are included for reference 
