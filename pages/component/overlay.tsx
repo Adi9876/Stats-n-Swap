@@ -1,21 +1,9 @@
-// components/Overlay.tsx
-import React from 'react';
 
-
-
-const Overlay = ({ children, isOverlayVisible, setOverlayVisible }:{ children:any, isOverlayVisible:any, setOverlayVisible:any }) => {
-
-    console.log("From inside overlay");
+const Overlay =({ children, isOverlayVisible, setOverlayVisible }: { children: any, isOverlayVisible: any, setOverlayVisible: any }) => {
 
     const toggleOverlay = () => {
         setOverlayVisible(!isOverlayVisible);
-      };
-      
-    // const onClose = () =>{
-    //     setOverlayVisible(false);
-    //     toggleOverlay();
-    // }
-
+    };
 
     return (
         // <div className="h-full w-full bg-black bg-opacity-50 z-50 flex justify-center items-center">
@@ -34,4 +22,5 @@ const Overlay = ({ children, isOverlayVisible, setOverlayVisible }:{ children:an
 };
 
 export default Overlay;
+
 

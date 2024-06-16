@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import { getCoinList, searchCoin, marketChartCoin } from "../data/gekoapi";
-import Charting from "../component/charts";
-import TableContent from "../component/tablecontent";
-import Overlay from "../component/overlay";
+import { getCoinList, searchCoin, marketChartCoin } from "./data/gekoapi";
+import Charting from "./component/charts";
+import TableContent from "./component/tablecontent";
+import Overlay from "./component/overlay";
 
 export default function Home() {
 
@@ -153,4 +153,6 @@ export default function Home() {
     // </tr>
     // <TableRow coin={coin} key={coin.id} currency={currency} setChart={setChart} />
   ))}
-</tbody> */}
+
+
+  </tbody> */}

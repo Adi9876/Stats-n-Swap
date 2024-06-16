@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import chartUp from "../assets/chart-up.svg";
-import chartDown from "../assets/chart-down.svg";
+import chartUp from "../../assets/chart-up.svg";
+import chartDown from "../../assets/chart-down.svg";
 import { marketChartCoin } from '../data/gekoapi';
 import { useState } from 'react';
 
@@ -59,7 +59,7 @@ export default function TableContent({ coin, loading, currency, setChart, isOver
                     onClick={showChartHandler}>
 
                     <img src={coin.image} alt="coin-image"
-                        className="h-10 cursor-pointer focus:cursor-auto"
+                        className="h-8 cursor-pointer focus:cursor-auto"
                         title='View Chart'
                     />
 
