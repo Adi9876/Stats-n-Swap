@@ -10,7 +10,7 @@ import {
     YAxis,
 } from "recharts";
 
-import { marketChartCoin } from "../data/gekoapi";
+import { getCoinList, searchCoin, marketChartCoin } from "../data/gekoapi";
 
 
 const currencySymbol = (currency: any) => {
@@ -25,13 +25,15 @@ const currencySymbol = (currency: any) => {
 
 const convertData = (data: any) => {
     // console.log(data);
-    try{const convertedData = data["prices"].map((item: any) => {
-        return {
-            date: item[0],
-            ["prices"]: item[1],
-        };
-    });
-    return convertedData;}catch(error){
+    try {
+        const convertedData = data["prices"].map((item: any) => {
+            return {
+                date: item[0],
+                ["prices"]: item[1],
+            };
+        });
+        return convertedData;
+    } catch (error) {
         console.log(error);
     }
 };
@@ -43,7 +45,7 @@ export default function Charting({ chart, setChart, currency }: { chart: any, se
     const [time, setTime] = useState(1);
 
     // const x = () => console.log("pehle chart: ", chart);
-    
+
     const coin = chart.coin;
     const id = chart.coin.id;
 
@@ -120,7 +122,7 @@ export default function Charting({ chart, setChart, currency }: { chart: any, se
         <div
             className="flex justify-evenly"
             onClick={(event) => timeHandler(event)}>
-        
+
             <button name="day" className="mt-4 mb-4 bg-gray-900 rounded hover:bg-blue-900 pl-2 pr-2 border border-white" >
                 1 Day
             </button>
@@ -154,7 +156,7 @@ export default function Charting({ chart, setChart, currency }: { chart: any, se
                 </span>
             </p>
         </footer>
-        
+
     </div>
 
 

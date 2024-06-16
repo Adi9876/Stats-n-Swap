@@ -11,4 +11,4 @@ const marketChartCoin = (id,time) =>
   `${BASE_URL}/coins/${id}/market_chart?vs_currency=usd&days=${time}&x_cg_demo_api_key=${API_KEY}`;
 
 //   export { getCoinList, searchCoin, marketChartCoin };
-  export { getCoinList, searchCoin, marketChartCoin };
+export { getCoinList, searchCoin, marketChartCoin };

@@ -1,7 +1,7 @@
-import SocketBridge from "./component/socketing";
+import SocketBridge from "../component/socketing";
 
 export default function Swaptoken() {
 
-    return <SocketBridge/>
+    return <SocketBridge />
 
 }
