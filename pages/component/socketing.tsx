@@ -65,7 +65,7 @@ export default function SocketBridge() {
     <div className="flex h-full w-full mt-20 items-center justify-center">
       <div>
         {/* this api is open for all i guess  */}
-        <DynamicBridge provider={provider} API_KEY="72a5b4b0-e727-48be-8aa1-5da9d62fe635" />
+        <DynamicBridge provider={provider} API_KEY="" />
       </div>
     </div>
   </div>
